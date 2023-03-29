@@ -1,0 +1,15 @@
+{
+	"id": "93d4aad1-cefe-474d-806b-9ddd3e642ba2",
+	"values": [
+		{
+			"key": "url",
+			"value": "https://jsonplaceholder.typicode.com",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2023-03-29T17:55:20.734Z",
+	"_postman_exported_using": "Postman/10.12.9-230328-0623"
+}
