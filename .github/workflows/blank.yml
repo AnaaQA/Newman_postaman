@@ -1,8 +1,13 @@
-name: Test-Build
+name: Test-API-newman
 on:
-  push:
+  schedule: #Execução agendada de segunda a sexta de 6 em 6 horas
+  - cron: "0 */6 * * 1-5" 
+  
+  push:  #Execução por atualização do github na branch main
     branches:
-      - main
+     - 'main'
+      
+  workflow_dispatch:  #Execução manual
 jobs:
   test-api:
     runs-on: ubuntu-latest
